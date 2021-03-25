@@ -1,0 +1,42 @@
+body{
+    background-color: #808080;
+    margin: 0px;
+}
+.Header{
+    background-color: floralwhite;
+    display: flex;
+    justify-content: space-between;
+}
+.Menu{
+    display: flex;
+    justify-content:"center";
+    background-color: "red";
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: #ffff;
+    padding: 15px;
+}
+h2{
+    text-align: center;
+}
+.Grid{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    font-family: sans-serif;
+    margin: 30px;
+}
+.Item{
+    border-radius: 20px;
+    background-color: yellowgreen;
+    font-family: fantasy;
+    width: 400px;
+    padding: 25px;
+    margin: 30px;
+    background-color: #f0fff0;
+}
+.Grid img{
+    border-radius: 50px;
+    border: #daa520;
+}
